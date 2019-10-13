@@ -1,4 +1,4 @@
-# ISI-action-recognition-system
+# Video-Survelliance-System
 We prepared a project which aims at ACTION RECOGNITION(mainly Sports Classes). We trained a VGG-16 Neural Network along with LSTM with UCF-101 Dataset having 101 classes. Initially, Dense Optical Flow was applied on the Dataset Videos and then respective MAGNITUDE and ANGLES were fed to the VGG-LSTM Network. After which the predictions of Networks processing angle and magnitudes are fused to get a single output.
 
 Data extraction.ipynb focus on considering the videos and extracting features between every two consecutive frames and converting them into corresponding magnitide and angle matrices.
